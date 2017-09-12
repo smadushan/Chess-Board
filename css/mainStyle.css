@@ -1,0 +1,40 @@
+body{
+    background-image: url("../images/nathural_king.jpg");
+    background-repeat: no-repeat;
+}
+
+#start{
+    position: fixed;
+    margin-top: 350px;
+    margin-left: 515px;
+    display: inline-block;
+}
+#fly_birds{
+    width: 500px;
+    height: 500px;
+    margin-left: 100px;
+    margin-top: -80px;
+    background-image: url("../images/birds.gif");
+}
+
+#ijse{
+    position: absolute;
+    width: 150px;
+    height: 40px;
+    margin-top: 90px;
+    margin-left: 1150px;
+}
+
+#color{
+    position: absolute;
+    width: 4px;
+    height: 10px;
+    margin-left: 1162px;
+    margin-top: 120px;
+    background-color: #c59000;
+}
+#main-style{
+    position: absolute;
+    margin-left: 0px;
+    margin-top: -400px;
+}
