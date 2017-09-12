@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width,initial-scale=1">
+    <title>Chess Board</title>
+
+    <!--&lt;!&ndash;<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">&ndash;&gt;-->
+    <!--<link rel="stylesheet" type="text/css" href="_css/bootstrap.min.css">-->
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">-->
+    <link rel="stylesheet" href="css/chessStyle.css">
+
+
+</head>
+<body>
+
+
+<div id="white-board"></div>
+<div id="black-board"></div>
+
+<div><img id="chess-title" src="images/Chess_tile_kd.png"></div>
+<div id="main-style"><img id="logo" src="images/Chess-logo.png"></div>
+
+<div id="score-board"><h1 style="margin-top: 0px">White</h1>
+    <div><img id="king" src="images/white-king.png"></div>
+    <div><img id="queen" src="images/white-queen.png"></div>
+    <div id="count-queen"></div>
+    <div><img id="bishop" src="images/white-bishop.png"></div>
+    <div><img id="knight" src="images/white-knight.png"></div>
+    <div><img id="ruk" src="images/white-rook.png"></div>
+    <div><img id="pawn" src="images/white-pawn.png"></div>
+</div>
+<div id="score-board2"><h1 style="margin-top: 0px">Black</h1>
+    <div><img id="b-king" src="images/black-king.png"></div>
+    <div><img id="b-queen" src="images/black-queen.png"></div>
+    <div><img id="b-bishop" src="images/black-bishop.png"></div>
+    <div><img id="b-kni" src="images/black-knight.png"></div>
+    <div><img id="b-ruk" src="images/black-rook.png"></div>
+    <div><img id="b-pawn" src="images/black-pawn.png"></div>
+</div>
+
+
+<div id="main-1" align="center">
+    <div id="spin">
+<div id="main-2">
+
+    <!--Chess Bord-->
+
+
+
+        <!--Black_Icon-->
+
+    <div class="back-color" style="width: 5px;height: 5px;position: absolute;margin-top:-28px;margin-left: 35px">A</div>
+    <div class="back-color" style="width: 5px;height: 5px;position: absolute;margin-top: -28px;margin-left: 130px">B</div>
+    <div class="back-color" style="width: 5px;height: 5px;position: absolute;margin-top: -28px;margin-left: 220px">C</div>
+    <div class="back-color" style="width: 5px;height: 5px;position: absolute;margin-top: -28px;margin-left: 310px">D</div>
+    <div class="back-color" style="width: 5px;height: 5px;position: absolute;margin-top: -28px;margin-left: 400px">E</div>
+    <div class="back-color" style="width: 5px;height: 5px;position: absolute;margin-top: -28px;margin-left: 490px">F</div>
+    <div class="back-color" style="width: 5px;height: 5px;position: absolute;margin-top: -28px;margin-left: 580px">G</div>
+    <div class="back-color" style="width: 5px;height: 5px;position: absolute;margin-top: -28px;margin-left: 670px">H</div>
+
+    <div id="div1" class="white-div"><img class="black-icon" id="black-rook" src="images/black-rook.png"></div>
+    <div id="div2" class="div"><img class="black-icon" id="black-knight" src="images/black-knight.png"></div>
+    <div id="div3" class="white-div"><img class="black-icon" id="black-bishop" src="images/black-bishop.png"></div>
+    <div id="div4" class="div"><img class="black-icon" id="black-king" src="images/black-king.png"></div>
+    <div id="div5" class="white-div"><img class="black-icon" id="black-queen" src="images/black-queen.png"></div>
+    <div id="div6" class="div"><img class="black-icon" id="black-bishop-2" src="images/black-bishop.png"></div>
+    <div id="div7" class="white-div"><img class="black-icon" id="black-knight-2" src="images/black-knight.png"></div>
+    <div id="div8" class="div"><img class="black-icon" id="black-rook-2" src="images/black-rook.png"></div>
+
+    <div  id="div9" class="div"><img class="blackpawn" id="black-pawn-1" src="images/black-pawn.png"></div>
+    <div  id="div10" class="white-div"><img class="blackpawn" id="black-pawn-2" src="images/black-pawn.png"></div>
+    <div  id="div11" class="div"><img class="blackpawn" id="black-pawn-3" src="images/black-pawn.png"></div>
+    <div  id="div12" class="white-div"><img class="blackpawn" id="black-pawn-4" src="images/black-pawn.png"></div>
+    <div  id="div13" class="div"><img class="blackpawn" id="black-pawn-5" src="images/black-pawn.png"></div>
+    <div  id="div14" class="white-div"><img class="blackpawn" id="black-pawn-6" src="images/black-pawn.png"></div>
+    <div  id="div15" class="div"><img class="blackpawn" id="black-pawn-7" src="images/black-pawn.png"></div>
+    <div  id="div16" class="white-div"><img class="blackpawn" id="black-pawn-8" src="images/black-pawn.png"></div>
+
+
+
+    <div id="div17" class="white-div"></div>
+    <div id="div18" class="div"></div>
+    <div id="div19" class="white-div"></div>
+    <div id="div20" class="div"></div>
+    <div id="div21" class="white-div"></div>
+    <div id="div22" class="div"></div>
+    <div id="div23" class="white-div"></div>
+    <div id="div24" class="div"></div>
+
+    <div id="div25" class="div"></div>
+    <div id="div26" class="white-div"></div>
+    <div id="div27" class="div"></div>
+    <div id="div28" class="white-div"></div>
+    <div id="div29" class="div"></div>
+    <div id="div30" class="white-div"></div>
+    <div id="div31" class="div"></div>
+    <div id="div32" class="white-div"></div>
+
+    <div id="div33" class="white-div"></div>
+    <div id="div34" class="div"></div>
+    <div id="div35" class="white-div"></div>
+    <div id="div36" class="div"></div>
+    <div id="div37" class="white-div"></div>
+    <div id="div38" class="div"></div>
+    <div id="div39" class="white-div"></div>
+    <div id="div40" class="div"></div>
+
+    <div id="div41" class="div"></div>
+    <div id="div42" class="white-div"></div>
+    <div id="div43" class="div"></div>
+    <div id="div44" class="white-div"></div>
+    <div id="div45" class="div"></div>
+    <div id="div46" class="white-div"></div>
+    <div id="div47" class="div"></div>
+    <div id="div48" class="white-div"></div>
+
+
+
+    <!--White_Icon-->
+
+
+    <div  id="div49" class="white-div"><img class="whitepawn" id="white-pawn-1" src="images/white-pawn.png"></div>
+    <div  id="div50" class="div"><img class="whitepawn" id="white-pawn-2" src="images/white-pawn.png"></div>
+    <div  id="div51" class="white-div"><img class="whitepawn" id="white-pawn-3" src="images/white-pawn.png"></div>
+    <div  id="div52" class="div"><img class="whitepawn" id="white-pawn-4" src="images/white-pawn.png"></div>
+    <div  id="div53" class="white-div"><img class="whitepawn" id="white-pawn-5" src="images/white-pawn.png"></div>
+    <div  id="div54" class="div"><img class="whitepawn" id="white-pawn-6" src="images/white-pawn.png"></div>
+    <div  id="div55" class="white-div"><img class="whitepawn" id="white-pawn-7" src="images/white-pawn.png"></div>
+    <div  id="div56" class="div"><img class="whitepawn" id="white-pawn-8" src="images/white-pawn.png"></div>
+
+    <div id="div57" class="div"><img class="white-icon" id="white-rook" src="images/white-rook.png"></div>
+    <div id="div58" class="white-div"><img class="white-icon" id="white-knight" src="images/white-knight.png"></div>
+    <div id="div59" class="div"><img class="white-icon" id="white-bishop" src="images/white-bishop.png"></div>
+    <div id="div60" class="white-div"><img class="white-icon" id="white-queen" src="images/white-queen.png"></div>
+    <div id="div61" class="div"><img class="white-icon" id="white-king" src="images/white-king.png"></div>
+    <div id="div62" class="white-div"><img class="white-icon" id="white-bishop-2" src="images/white-bishop.png"></div>
+    <div id="div63" class="div"><img class="white-icon" id="white-knight-2" src="images/white-knight.png"></div>
+    <div id="div64" class="white-div"><img class="white-icon" id="white-rook-2" src="images/white-rook.png"></div>
+
+
+    <div class="back-color" style="width: 5px;height: 5px;position: absolute;margin-top: 550px;margin-left: -20px">1</div>
+    <div class="back-color" style="width: 5px;height: 5px;position: absolute;margin-top: 470px;margin-left: -20px">2</div>
+    <div class="back-color" style="width: 5px;height: 5px;position: absolute;margin-top: 400px;margin-left: -20px">3</div>
+    <div class="back-color" style="width: 5px;height: 5px;position: absolute;margin-top: 320px;margin-left: -20px">4</div>
+    <div class="back-color" style="width: 5px;height: 5px;position: absolute;margin-top: 250px;margin-left: -20px">5</div>
+    <div class="back-color" style="width: 5px;height: 5px;position: absolute;margin-top: 170px;margin-left: -20px">6</div>
+    <div class="back-color" style="width: 5px;height: 5px;position: absolute;margin-top: 100px;margin-left: -20px">7</div>
+    <div class="back-color" style="width: 5px;height: 5px;position: absolute;margin-top: 20px;margin-left: -20px">8</div>
+
+    <div class="back-color" style="width: 5px;height: 5px;position: absolute;margin-top: 550px;margin-left: 730px">1</div>
+    <div class="back-color" style="width: 5px;height: 5px;position: absolute;margin-top: 470px;margin-left: 730px">2</div>
+    <div class="back-color" style="width: 5px;height: 5px;position: absolute;margin-top: 400px;margin-left: 730px">3</div>
+    <div class="back-color" style="width: 5px;height: 5px;position: absolute;margin-top: 320px;margin-left: 730px">4</div>
+    <div class="back-color" style="width: 5px;height: 5px;position: absolute;margin-top: 250px;margin-left: 730px">5</div>
+    <div class="back-color" style="width: 5px;height: 5px;position: absolute;margin-top: 170px;margin-left: 730px">6</div>
+    <div class="back-color" style="width: 5px;height: 5px;position: absolute;margin-top: 100px;margin-left: 730px">7</div>
+    <div class="back-color" style="width: 5px;height: 5px;position: absolute;margin-top: 20px;margin-left: 730px">8</div>
+
+    <div class="back-color" style="width: 5px;height: 5px;position: absolute;margin-top: 605px;margin-left: 35px">A</div>
+    <div class="back-color" style="width: 5px;height: 5px;position: absolute;margin-top: 605px;margin-left: 130px">B</div>
+    <div class="back-color" style="width: 5px;height: 5px;position: absolute;margin-top: 605px;margin-left: 220px">C</div>
+    <div class="back-color" style="width: 5px;height: 5px;position: absolute;margin-top: 605px;margin-left: 310px">D</div>
+    <div class="back-color" style="width: 5px;height: 5px;position: absolute;margin-top: 605px;margin-left: 400px">E</div>
+    <div class="back-color" style="width: 5px;height: 5px;position: absolute;margin-top: 605px;margin-left: 490px">F</div>
+    <div class="back-color" style="width: 5px;height: 5px;position: absolute;margin-top: 605px;margin-left: 580px">G</div>
+    <div class="back-color" style="width: 5px;height: 5px;position: absolute;margin-top: 605px;margin-left: 670px">H</div>
+
+</div>
+    </div>
+</div>
+
+
+<div id="hidden-button">
+</div>
+
+<div id="new-game" style="margin-left: 650px;height: 30px;width: 100px;background-color: darkgreen;text-align: center;margin-top: 35px;position: absolute">New Game</div>
+<div id="rotate" style="margin-left: 500px;height: 30px;width: 100px;background-color: darkgreen;text-align: center;margin-top: 35px;position: absolute">Rotate</div>
+
+
+<div style="width: 100px;height: 100px; position: absolute; margin-top: 9px; margin-left: 10px " >
+<h1 id="heading" style="font-size:50px;text-align: center;">BATTLE</h1>
+</div>
+
+<div style="width: 100px;height: 100px; position: absolute; margin-top: 9px; margin-left: 265px " >
+    <h1 id="heading-2" style="font-size:50px;text-align: center;">CHESS</h1>
+</div>
+
+<script>
+
+
+</script>
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/board-controller.js"></script>
+
+</body>
+</html>
